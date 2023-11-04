@@ -1,0 +1,116 @@
+a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+#lin{
+    float: right;
+    margin-right: 30px;
+    align-items: right;
+    justify-content: right;
+  }
+  #beech{
+   color: white;
+    margin-bottom: 160px;
+    margin-left: 20px;
+    display: inline-flexbox;
+    padding: 30px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .reg-btn{
+    background-color: #008CBA;
+  }
+  .reg-btn {
+   
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #beech1{
+    flex: 1;
+  }
+  #Aug{
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    margin-left: 50px;
+    background-attachment: fixed;
+    background-color:#CC0099;
+  }
+  #Aug1{
+    flex: 1;
+    float: left;
+    align-items: center;
+  }
+
+  .lms-btn{
+    background-color: #008CBA;
+  }
+  .lms-btn {
+   
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #bg-image{
+    background-image:url('bg.webp');
+    filter: blur(8px);
+  }
+  p,pre,b{
+ color: black;
+  }
+  
+  .flexbox{
+    height: 50vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 260px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    color: white;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+.flex{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}

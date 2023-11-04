@@ -1,0 +1,42 @@
+
+*{
+    background-color: white;
+    font-family: sans-serif;
+   
+    box-sizing: border-box;
+    outline: none; border: white;
+    text-decoration: none;
+    border: black;
+  
+    margin-left: 10px;
+}
+input,option,select,p{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid black;
+    color:black;
+    margin-left: 10px;
+}
+label{
+    text-align: left;
+    background-color: pink;
+    
+}
+.flexbox{
+background-color: pink;
+display: flexbox;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 40px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+#radio-btns{
+   background-color: pink;
+    
+}

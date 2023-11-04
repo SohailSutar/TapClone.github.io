@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body style="">
+    <form action="onsubmit.html">
+        <div class="flexbox">
+        <label for="name" fontsize="20">Name: </label>
+        <input type="text" required pattern="[a-zA-Z]{3-12}">
+       <br><br>
+        <label for="num" fontsize="20">Number: </label>
+        <input type="number" required pattern="[6-9]{0-9}">
+      <br><br>
+        <label for="dob" fontsize="20" required>DOB: </label>
+        <input type="date">
+        <br><br>
+       
+        <label for="gender" fontsize="20" required>Gender: </label>
+        <br>
+        <label for="male" fontsize="20" required >Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="male" name="fav_language" value="male">
+        <br>
+        <label for="female" fontsize="20" required>Female</label>
+        <input type="radio" id="female" name="fav_language" value="female">
+    
+    <br>
+    <br>
+        <label for=" course" fontsize="20" required>Course: </label>
+        <select  name="course" id="course">
+            
+            <option value="volvo" fontsize="20" required>Full Stack Java Development</option>
+            <option value="saab" fontsize="20" required>Full Stack Python Development</option>
+        </select>
+       <br><br>
+        <input type="submit" value="SUBMIT" style="width: 100px; background-color: aquamarine;">
+
+    </div>
+    </form>
+</body>
+</html>
